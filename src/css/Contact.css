@@ -1,0 +1,37 @@
+.contact {
+    width: 60%;
+    margin: auto auto;
+    font-family: 'DM Sans';
+    margin-bottom: 2em;
+}
+.contact .blues {
+    overflow: hidden;
+}
+
+.contact h1 {
+    font-family: 'Satoshi';
+    font-weight: 900;
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    text-shadow: 0.5px 0.5px 0.03em;
+    text-align: center;
+    margin-top: 1.2em;
+}
+
+.contact input, .contact textarea {
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    padding: 16px;
+    margin-bottom: 30px;
+}
+
+.contact .button {
+    background-color: #087eff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    margin-bottom: 4em;
+}

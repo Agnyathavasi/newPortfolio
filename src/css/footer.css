@@ -1,0 +1,76 @@
+.footer{
+    width: 100%;
+    padding: 5% 0 0 0;
+    background-color: #087eff;
+    color: #eee;
+    margin: auto auto;
+}
+.footer .content{
+    margin-bottom: 5%;
+}
+.footer .left{
+    padding: 5px 40px 5px 5px;
+}
+.footer .left .top{
+    display: flex;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+/* .footer .left .top img{
+
+} */
+.footer .left .name{
+    margin: 7% 0 0 -3%;
+    color: #f1f1f1;
+    font-family: 'DM Sans';
+    font-size: 2.2em;
+    font-weight: 600;
+}
+.footer .left .text{
+    font-family: 'DM Sans';
+    font-weight: 600;
+}
+.footer .left .socialLinks{
+    margin-top: 40px;
+    display: flex;
+}
+.footer .left .socialLinks .link a{
+    margin: 10px 30px 0 0;
+    cursor: pointer;
+    color: #eee;
+}
+.footer .left .socialLinks .link a:hover{
+    color: #f1f1f1;
+}
+.footer .center .title{
+    margin: 10px 0 40px 0;
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 10px;
+    color: #eee;
+    font-family: 'Satoshi';
+}
+.footer .center .navigastionLinks{
+    display: flex;
+}
+.footer .center .listItem{
+    padding: 10px 0 10px 0;
+    list-style: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'DM Sans';
+}
+.footer .center .listItem:hover{
+    color: #fff;
+}
+.footer .center .listItem a {
+    text-decoration: none;
+    color: #eee;
+}
+.footer .center .listItem a:hover{
+    color: #fff;
+}
+.footer .center .listItem span{
+    padding: 10px;
+    font-weight: 600;
+}

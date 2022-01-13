@@ -1,0 +1,45 @@
+.header{
+    position: relative;
+    padding: 15px 0 5px 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+.header .logo {
+    display: flex;
+    margin-top: 15px;
+    padding: 5px;
+    /* height: 90%; */
+    width: min-content;
+    cursor: pointer;
+}
+.header .navs{
+    position: absolute;
+    right: 1px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.header .navs li{
+    list-style: none;
+    padding: 10px 25px;
+    position: relative;
+    color: #121212;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    font-size: 1.1em;
+}
+.header .navs li:hover{
+    background-color: #087eff;
+    color: azure;
+    transition: 0.3s;
+}
+.header .navs li:active{
+    background-color: #268cfa;
+    transition: 0.1ms;
+}

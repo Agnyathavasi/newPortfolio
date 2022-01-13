@@ -1,0 +1,12 @@
+.about .component_row{
+    padding-bottom: 4em;
+}
+.about .component_row .self{
+    margin: auto auto;
+}
+.about .component_row .self img{
+    width: 85%;
+    border-radius: 50%;
+    border-color: #087eff;
+    border: 20px solid #087eff;
+}

@@ -1,0 +1,34 @@
+.homeBody{
+    color: #121212;
+    height: 100%;
+    width: 100%;
+}
+.homebody .blues{
+    overflow: hidden;
+}
+.homeBody .component_row{
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+}
+.homeBody .component_row .main{
+    height: 100%;
+    margin: auto auto;
+    z-index: 1;
+}
+.homeBody .component_row .main .main_text{
+    font-size: 4em;
+    font-family: 'Satoshi';
+    font-weight: 900;
+}
+.homeBody .component_row .main .para_text{
+    font-weight: 500;
+    font-family: 'DM Sans';
+    font-size: 1.2em;
+}
+.homeBody .component_row .sideImg{
+    padding: 1%;
+    text-align: center;
+    z-index: 1;
+}
+
+/* have to add a media query here for smaller size to cancel float*/

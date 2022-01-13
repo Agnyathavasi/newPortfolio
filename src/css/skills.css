@@ -1,0 +1,30 @@
+.skills .skill_row{
+    margin-top: 3em;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    z-index: 1;
+}
+
+.skills .skill_row .heading {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Satoshi';
+    font-weight: 900;
+    z-index: 1;
+}
+
+.skills .skill_row .main {
+    margin: auto auto;
+}
+
+.skills .skill_row .skitem{
+    margin: 30px 0 30px 0;
+}
+.skills .skill_row .skitem h6{
+    font-family: 'Satoshi';
+    font-weight: 600;
+    font-size: 15px;
+}
+.skills .skill_row .skitem .progress, .skills .skill_row .skitem .percentage{
+    height: 8px;
+}

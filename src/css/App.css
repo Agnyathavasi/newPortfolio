@@ -1,0 +1,15 @@
+.App {
+  background-color: #fefefe;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #fefefe;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #087eff;
+}

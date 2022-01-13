@@ -1,0 +1,8 @@
+.rdblue {
+    width: 1200px;
+    height: 800px;
+    border-radius: 442px;
+    background-color: #087eff;
+    transform: rotate(-45deg);
+    z-index: 0;
+}

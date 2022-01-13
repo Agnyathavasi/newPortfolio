@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { React, useState } from "react";
+import "./css/App.css";
+import Header from "./components/header";
+import HomeBody from "./components/homeBody";
+import About from "./components/About";
+import Skils from "./components/Skils";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap-grid.css";
+import Footer from "./components/footer";
 
 function App() {
+  var [state, setstate] = useState("home");
+
+  function handleChange(item) {
+    setstate(item);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <Header onsel={handleChange} />
+        {
+          {
+            home: <HomeBody />,
+            about: <About />,
+            portfolio: <Portfolio />,
+            skills: <Skils />,
+            contact: <Contact />,
+          }[state]
+        }
+      </div>
+
+      <Footer onsel={handleChange} />
     </div>
   );
 }

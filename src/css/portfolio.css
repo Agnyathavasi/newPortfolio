@@ -1,0 +1,98 @@
+.portfolio .webprojects {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    display: block;
+    align-self: center;
+    justify-content: center;
+    margin: auto auto;
+}
+.portfolio .webprojects .titles {
+    font-family: 'Satoshi';
+    font-size: 4em;
+    font-weight: 900;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.portfolio .webprojects .uicls {
+    width: 100%;
+    margin: auto auto;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+.portfolio .cards {
+    position:relative;
+    padding: 10px;
+    margin-bottom: 4em;
+    transition: 0.2s ease-in-out;
+}
+.portfolio .cards:hover{
+    transform: translateY(1px);
+}
+.portfolio .cards::before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 8.7%;
+    width: 82.5%;
+    height: 93.3%;
+    border-radius: 7px;
+    padding: 10px;
+    background: rgba(8,126,255,0.9);
+    z-index: 2;
+    opacity: 0;
+}
+.portfolio .cards:hover::before {
+    opacity: 1;
+}
+
+.portfolio .cards img {
+    position: relative;
+    border-radius: 7px;
+    box-shadow: 0.5px 0.5px 0.3em;
+}
+
+.portfolio .cards .cardinfo{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    right: 20%;
+    bottom: 10%;
+    z-index: 3;
+    color: #f1f1f1;
+    visibility: hidden;
+}
+
+.portfolio .cards .cardinfo h2{
+    margin-bottom: 10%;
+    font-size: 200%;
+    font-family: 'Satoshi';
+    font-weight: 800;
+}
+.portfolio .cards .cardinfo p{
+    margin-bottom: 10%;
+    font-size: 90%;
+    font-family: 'DM Sans';
+    position: absolute;
+    top: 40%;
+    bottom: 20%;
+    left: 10%;
+    right: 10%;
+    font-weight: 500;
+}
+.portfolio .cards .cardinfo a {
+    color: #f1f1f1;
+    text-decoration: none;
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+}
+.portfolio .cards .cardinfo .launch{
+    position: absolute;
+    bottom: 2px;
+    left: 40px;
+}
+.portfolio .cards:hover .cardinfo {
+    visibility: visible;
+}
