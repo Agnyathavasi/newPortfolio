@@ -23,6 +23,9 @@
     align-items: center;
     justify-content: center;
 }
+.header .navs a {
+    text-decoration: none;
+}
 .header .navs li{
     list-style: none;
     padding: 10px 25px;

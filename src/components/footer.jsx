@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   BarChart,
   ContactMail,
@@ -13,31 +14,18 @@ import {
 import "../css/footer.css";
 import image from "../img/darkThemeLogo.png";
 
-function Footer(props) {
-  function home() {
-    props.onsel("home");
-  }
-  function about() {
-    props.onsel("about");
-  }
-  function portfolio() {
-    props.onsel("portfolio");
-  }
-  function skills() {
-    props.onsel("skills");
-  }
-  function contact() {
-    props.onsel("contact");
-  }
+function Footer() {
   return (
     <div className="footer">
       <div className="container">
         <div className="row">
           <div className="col-md-4 left content">
-            <div className="top" onClick={home}>
-              <img src={image} alt="" width="22%" />
-              <span className="name">ishwajith H H</span>
-            </div>
+            <Link className="link" to="/">
+              <div className="top">
+                <img src={image} alt="" width="22%" />
+                <span className="name">ishwajith H H</span>
+              </div>
+            </Link>
             <p className="text">
               Below are the links to all my social platforms such as GitHub,
               LinkedIn, etc. Don't forget to check my works on Android on
@@ -65,21 +53,30 @@ function Footer(props) {
             <h4 className="title">NAVIGATE TO</h4>
             <div className="navigastionLinks">
               <ul>
-                <li className="listItem" onClick={about}>
-                  <Person fontSize="small" />
-                  <span>About</span>
+
+                <li className="listItem">
+                  <Link to="/about">
+                    <Person fontSize="small" />
+                    <span>About</span>
+                  </Link>
                 </li>
-                <li className="listItem" onClick={portfolio}>
-                  <Work fontSize="small" />
-                  <span>Portfolio</span>
+                <li className="listItem">
+                  <Link to="/portfolio">
+                    <Work fontSize="small" />
+                    <span>Portfolio</span>
+                  </Link>
                 </li>
-                <li className="listItem" onClick={skills}>
-                  <BarChart fontSize="small" />
-                  <span>Skills</span>
+                <li className="listItem">
+                  <Link to="/skills">
+                    <BarChart fontSize="small" />
+                    <span>Skills</span>
+                  </Link>
                 </li>
-                <li className="listItem" onClick={contact}>
-                  <ContactMail fontSize="small" />
-                  <span>Contact Me</span>
+                <li className="listItem">
+                  <Link to="/contact">
+                    <ContactMail fontSize="small" />
+                    <span>Contact Me</span>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -101,9 +98,9 @@ function Footer(props) {
                   </a>
                 </li>
                 <li className="listItem">
-                <a href="https://goo.gl/maps/EVUrNJFPKLEzCG7w9">
-                  <LocationOn fontSize="small" />
-                  <span>Bengaluru, India</span>
+                  <a href="https://goo.gl/maps/EVUrNJFPKLEzCG7w9">
+                    <LocationOn fontSize="small" />
+                    <span>Bengaluru, India</span>
                   </a>
                 </li>
               </ul>

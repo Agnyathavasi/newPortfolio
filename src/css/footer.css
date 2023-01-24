@@ -11,6 +11,9 @@
 .footer .left{
     padding: 5px 40px 5px 5px;
 }
+.footer .left .link {
+    text-decoration: none;
+}
 .footer .left .top{
     display: flex;
     margin-bottom: 25px;

@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React } from "react";
 import "./css/App.css";
 import Header from "./components/header";
 import HomeBody from "./components/homeBody";
@@ -9,30 +9,33 @@ import Contact from "./components/Contact";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/css/bootstrap-grid.css";
 import Footer from "./components/footer";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
-  var [state, setstate] = useState("home");
-
-  function handleChange(item) {
-    setstate(item);
-  }
-
   return (
     <div className="App">
-      <div className="container">
-        <Header onsel={handleChange} />
-        {
-          {
-            home: <HomeBody />,
-            about: <About />,
-            portfolio: <Portfolio />,
-            skills: <Skils />,
-            contact: <Contact />,
-          }[state]
-        }
-      </div>
-
-      <Footer onsel={handleChange} />
+      <Router>
+        <div className="container">
+          <Header />
+          <Routes>
+            <Route path="/" element={<HomeBody />}>
+            </Route>
+            <Route path="/about" element={<About />}>
+            </Route>
+            <Route path="/portfolio" element={<Portfolio />}>
+            </Route>
+            <Route path="/skills" element={<Skils />}>
+            </Route>
+            <Route path="/contact" element={<Contact />}>
+            </Route>
+          </Routes>
+        </div>
+        <Footer />
+      </Router>
     </div>
   );
 }
