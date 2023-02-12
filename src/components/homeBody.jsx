@@ -13,7 +13,7 @@ function HomeBody() {
         <Roundblue top={"540px"} right={"-750px"} />
         <Roundblue top={"2040px"} left={"-750px"} />
       </div>
-      <div className="row component_row">
+      <div id="home" className="row component_row">
         <div className="col-md-6 main">
           <h1 className="main_text">Welcome to my WebSite</h1>
           <p className="para_text">

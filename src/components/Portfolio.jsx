@@ -14,7 +14,7 @@ function Portfolio() {
         <Roundblue top={"2140px"} left={"-750px"} />
         <Roundblue top={"3040px"} right={"-750px"} />
       </div>
-      <div className="row component_row">
+      <div id="portfolio" className="row component_row">
         <div className="col-md-6 main">
           <h1 className="main_text">Portfolio</h1>
           <p className="para_text">

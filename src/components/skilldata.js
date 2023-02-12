@@ -22,13 +22,13 @@ let frontend = [
     },
     {
         id:m++,
-        name:"Figma",
-        precent:74
+        name:"Vue",
+        precent:78
     },
     {
         id:m++,
-        name:"XD",
-        precent:76
+        name:"Figma",
+        precent:74
     }
 ]
 
@@ -41,12 +41,12 @@ let backend = [
     {
         id:m++,
         name:"Node JS",
-        precent:73
+        precent:65
     },
     {
         id:m++,
         name:"APIs",
-        precent:71
+        precent:70
     },
     {
         id:m++,
@@ -59,7 +59,7 @@ let programming = [
     {
         id:m++,
         name:"C",
-        precent:92
+        precent:80
     },
     {
         id:m++,
@@ -69,7 +69,7 @@ let programming = [
     {
         id:m++,
         name:"JavaScript",
-        precent:79
+        precent:87
     },
     {
         id:m++,

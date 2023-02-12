@@ -14,7 +14,7 @@ function About() {
         <Roundblue top={"-150px"} right={"-960px"} />
         <Roundblue top={"740px"} left={"-750px"} />
       </div>
-      <div className="row component_row">
+      <div id="about" className="row component_row">
         <div className="col-md-6 main">
           <h1 className="main_text">About Me</h1>
           <p className="para_text">

@@ -4,7 +4,7 @@ import Roundblue from "./roundblue";
 
 function Contact() {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="blues">
         <Roundblue top={"-650px"} right={"-570px"} />
       </div>
