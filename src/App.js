@@ -22,15 +22,15 @@ function App() {
         <div className="container">
           <Header />
           <Routes>
-            <Route path="/" element={<HomeBody />}>
+            <Route path="/newPortfolio/" element={<HomeBody />}>
             </Route>
-            <Route path="/about" element={<About />}>
+            <Route path="/newPortfolio/about" element={<About />}>
             </Route>
-            <Route path="/portfolio" element={<Portfolio />}>
+            <Route path="/newPortfolio/portfolio" element={<Portfolio />}>
             </Route>
-            <Route path="/skills" element={<Skils />}>
+            <Route path="/newPortfolio/skills" element={<Skils />}>
             </Route>
-            <Route path="/contact" element={<Contact />}>
+            <Route path="/newPortfolio/contact" element={<Contact />}>
             </Route>
           </Routes>
         </div>

@@ -15,7 +15,7 @@ function Skils() {
       <div className="blues">
         <Roundblue top={"-350px"} left={"-320px"} />
       </div>
-      <div className="row component_row">
+      <div id="skills" className="row component_row">
         <div className="col-md-6 main">
           <h1 className="main_text">Skills</h1>
           <p className="para_text">

@@ -20,7 +20,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-4 left content">
-            <Link className="link" to="/">
+            <Link className="link" to="/newPortfolio/">
               <div className="top">
                 <img src={image} alt="" width="22%" />
                 <span className="name">ishwajith H H</span>
@@ -55,25 +55,25 @@ function Footer() {
               <ul>
 
                 <li className="listItem">
-                  <Link to="/about">
+                  <Link to="/newPortfolio/about">
                     <Person fontSize="small" />
                     <span>About</span>
                   </Link>
                 </li>
                 <li className="listItem">
-                  <Link to="/portfolio">
+                  <Link to="/newPortfolio/portfolio">
                     <Work fontSize="small" />
                     <span>Portfolio</span>
                   </Link>
                 </li>
                 <li className="listItem">
-                  <Link to="/skills">
+                  <Link to="/newPortfolio/skills">
                     <BarChart fontSize="small" />
                     <span>Skills</span>
                   </Link>
                 </li>
                 <li className="listItem">
-                  <Link to="/contact">
+                  <Link to="/newPortfolio/contact">
                     <ContactMail fontSize="small" />
                     <span>Contact Me</span>
                   </Link>
