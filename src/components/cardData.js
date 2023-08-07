@@ -61,7 +61,7 @@ let websites = [
         title: "Keeper",
         details: "This is a Clone app of Google Keep, made using ReactJS. Mainly focusing on frontend using React states, hooks, props, JSX, etc.",
         image: "https://raw.githubusercontent.com/Agnyathavasi/imgs/main/keeper.png",
-        launch: "https://github.com/Agnyathavasi/keeper",
+        launch: "https://agnyathavasi.github.io/keeper/",
         sourceCode: "https://github.com/Agnyathavasi/keeper"
     }
 ]
