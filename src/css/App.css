@@ -1,5 +1,18 @@
+:root {
+  --bg-color: #fefefe;
+  --text-color: #121212;
+  --blue-color: #087eff;
+  --input-bg: #eee;
+}
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #f1f1f1;
+  --blue-color: #045ebd;
+  --input-bg: #2c2c2c;
+}
+
 .App {
-  background-color: #fefefe;
+  background-color: var(--bg-color);
 }
 html, body {
   max-width: 100%;
@@ -7,9 +20,9 @@ html, body {
 }
 ::-webkit-scrollbar {
     width: 6px;
-    background-color: #fefefe;
+    background-color: var(--bg-color);
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #087eff;
+	background: var(--blue-color);
 }

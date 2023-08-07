@@ -7,6 +7,6 @@
 .about .component_row .self img{
     width: 85%;
     border-radius: 50%;
-    border-color: #087eff;
-    border: 20px solid #087eff;
+    border-color: var(--blue-color);
+    border: 20px solid var(--blue-color);
 }

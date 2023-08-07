@@ -38,7 +38,7 @@ function Skils() {
                 <div className="progress">
                   <span
                     className="percentage"
-                    style={{ backgroundColor: "#087eff", width: `${breadth}%` }}
+                    style={{ backgroundColor: "var(--blue-color)", width: `${breadth}%` }}
                   ></span>
                 </div>
               </div>
@@ -63,7 +63,7 @@ function Skils() {
                 <div className="progress">
                   <span
                     className="percentage"
-                    style={{ backgroundColor: "#087eff", width: `${breadth}%` }}
+                    style={{ backgroundColor: "var(--blue-color)", width: `${breadth}%` }}
                   ></span>
                 </div>
               </div>
@@ -82,7 +82,7 @@ function Skils() {
                 <div className="progress">
                   <span
                     className="percentage"
-                    style={{ backgroundColor: "#087eff", width: `${breadth}%` }}
+                    style={{ backgroundColor: "var(--blue-color)", width: `${breadth}%` }}
                   ></span>
                 </div>
               </div>
@@ -107,7 +107,7 @@ function Skils() {
                 <div className="progress">
                   <span
                     className="percentage"
-                    style={{ backgroundColor: "#087eff", width: `${breadth}%` }}
+                    style={{ backgroundColor: "var(--blue-color)", width: `${breadth}%` }}
                   ></span>
                 </div>
               </div>
@@ -126,7 +126,7 @@ function Skils() {
                 <div className="progress">
                   <span
                     className="percentage"
-                    style={{ backgroundColor: "#087eff", width: `${breadth}%` }}
+                    style={{ backgroundColor: "var(--blue-color)", width: `${breadth}%` }}
                   ></span>
                 </div>
               </div>

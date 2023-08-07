@@ -115,21 +115,32 @@ let uiclones = [
         title: "Google",
         details: "This is a clone of the google homepage, replicated using plain html and css.",
         image: "https://raw.githubusercontent.com/Agnyathavasi/imgs/main/google.PNG",
-        sourceCode: "https://github.com/Agnyathavasi/GoogleReplica"
+        sourceCode: "https://github.com/Agnyathavasi/GoogleReplica",
+        launch: "https://agnyathavasi.github.io/GoogleReplica/"
     },
     {
         id:m++,
         title: "Youtube",
         details: "This is a clone of Youtube landing site, made using reactJS and Bootstrap.",
         image: "https://raw.githubusercontent.com/Agnyathavasi/imgs/main/yt.png",
-        sourceCode: "https://github.com/Agnyathavasi/youtubeclone"
+        sourceCode: "https://github.com/Agnyathavasi/youtubeclone",
+        launch: "https://agnyathavasi.github.io/youtubeclone/"
     },
     {
         id:m++,
         title: "Whatsapp",
         details: "This is a clone of whatsapp website view, made using reactJS and Bootstrap.",
         image: "https://raw.githubusercontent.com/Agnyathavasi/imgs/main/whatsapp.png",
-        sourceCode: "https://github.com/Agnyathavasi/whatsapp"
+        sourceCode: "https://github.com/Agnyathavasi/whatsapp",
+        launch: "https://agnyathavasi.github.io/whatsapp/"
+    },
+    {
+        id:m++,
+        title: "Windows 11",
+        details: "This is a clone of Windows 11 desktop page, made using reactJS and Bootstrap.",
+        image: "https://raw.githubusercontent.com/Agnyathavasi/imgs/main/image.png",
+        sourceCode: "https://github.com/Agnyathavasi/windows-11",
+        launch: "https://agnyathavasi.github.io/windows-11/"
     }
 ];
 

@@ -2,7 +2,7 @@
     width: 1200px;
     height: 800px;
     border-radius: 442px;
-    background-color: #087eff;
+    background-color: var(--blue-color);
     transform: rotate(-45deg);
     z-index: 0;
 }

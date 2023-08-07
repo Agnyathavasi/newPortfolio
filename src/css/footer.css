@@ -1,7 +1,7 @@
 .footer{
     width: 100%;
     padding: 5% 0 0 0;
-    background-color: #087eff;
+    background-color: var(--blue-color);
     color: #eee;
     margin: auto auto;
 }
@@ -24,7 +24,7 @@
 } */
 .footer .left .name{
     margin: 7% 0 0 -3%;
-    color: #f1f1f1;
+    color: #eee;
     font-family: 'DM Sans';
     font-size: 2.2em;
     font-weight: 600;
@@ -43,7 +43,7 @@
     color: #eee;
 }
 .footer .left .socialLinks .link a:hover{
-    color: #f1f1f1;
+    color: var(--bg-color);
 }
 .footer .center .title{
     margin: 10px 0 40px 0;

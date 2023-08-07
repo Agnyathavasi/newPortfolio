@@ -60,7 +60,7 @@
     right: 20%;
     bottom: 10%;
     z-index: 3;
-    color: #f1f1f1;
+    color: var(--bg-color);
     visibility: hidden;
 }
 
@@ -82,7 +82,7 @@
     font-weight: 500;
 }
 .portfolio .cards .cardinfo a {
-    color: #f1f1f1;
+    color: var(--bg-color);
     text-decoration: none;
     position: absolute;
     bottom: 1px;

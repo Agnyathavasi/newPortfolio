@@ -6,7 +6,7 @@ import Roundblue from "./roundblue";
 
 function About() {
   const namestyle = {
-    "color":"#087eff"
+    "color":"var(--blue-color)"
 }
   return (
     <div className="homeBody about">

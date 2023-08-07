@@ -94,6 +94,15 @@ function Portfolio() {
                   >
                     <Link fontSize="medium" />
                   </a>
+                  <span className="launch">
+                    <a
+                      href={item.launch}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Launch fontSize="medium" />
+                    </a>
+                  </span>
                 </div>
               </div>
             );
